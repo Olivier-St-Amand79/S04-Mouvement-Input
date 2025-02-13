@@ -198,6 +198,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 607239695}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 08ed069f88bb5ae448f84efda886ffb6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 607239700}
   m_SourcePrefab: {fileID: 100100000, guid: 08ed069f88bb5ae448f84efda886ffb6, type: 3}
 --- !u!1 &26323946
 GameObject:
@@ -669,6 +673,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1171665315}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dd8f2d740d631704b8908d98ff465c52,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1171665316}
   m_SourcePrefab: {fileID: 100100000, guid: dd8f2d740d631704b8908d98ff465c52, type: 3}
 --- !u!1 &607239694 stripped
 GameObject:
@@ -685,7 +693,7 @@ Rigidbody:
   m_GameObject: {fileID: 607239694}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -703,6 +711,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &607239700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607239694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4a78aca7bb0546b6f41c45f6f972a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceInitiale: {x: -8, y: 2.58, z: 6}
 --- !u!1001 &627236239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1400,7 +1421,7 @@ Transform:
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
   m_LocalRotation: {x: 0.15333077, y: 0, z: 0, w: 0.9881749}
-  m_LocalPosition: {x: 1.09, y: 3.25, z: -10}
+  m_LocalPosition: {x: 1.09, y: 3.25, z: -9.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1567,6 +1588,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1171665316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171665314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4a78aca7bb0546b6f41c45f6f972a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceInitiale: {x: 4.9, y: 2, z: -0.1}
 --- !u!1001 &1495376285
 PrefabInstance:
   m_ObjectHideFlags: 0
